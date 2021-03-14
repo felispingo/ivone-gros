@@ -20,7 +20,8 @@ section.logo{
 }
 
 section.logo img{
-    width: 60%;
+    width: 448px;
+    height: 259px;
 }
 
 
@@ -88,6 +89,7 @@ section.fotos img{
 
 
 @media screen and (max-width: 1024px){
+
     section.cardapio h2{
         font-size: 38px;
     }
@@ -104,6 +106,7 @@ section.fotos img{
 }
 
 @media screen and (max-width: 768px){
+    
     section.cardapio h2{
         font-size: 24px;
     }
