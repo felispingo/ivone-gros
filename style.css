@@ -6,7 +6,6 @@
 
 
 html, body{
-    height: 100%;
     margin: 0 auto;
     max-width: 1280px;
     font-family: 'Montserrat', sans-serif;
@@ -31,17 +30,15 @@ section.cardapio img{
 
 
 section.redes{
-    width: 100%;
-}
-
-section.redes{
+    height: 100px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 section.redes a{
-    width: 200px;
+    width: 25%;
     height: 80px;
     color: white;
     font-size: 18px;
@@ -49,7 +46,6 @@ section.redes a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f09433;
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     border-radius: 6px;
 }
@@ -59,14 +55,30 @@ section.redes a:nth-of-type(2){
 }
 
 section.redes a:last-of-type{
-    width: 200px;
-    height: 80px;
     color: black;
-    font-size: 18px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: #00E676;
-    border-radius: 2px;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    section.redes{
+        height: 240px;
+        align-items: center;
+    }
+
+    section.redes a{
+        width: 34%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section.redes{
+        height: 320px;
+        align-items: center;
+    }
+
+    section.redes a{
+        width: 51%;
+    }
 }
