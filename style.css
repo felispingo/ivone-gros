@@ -55,20 +55,50 @@ section.redes div{
 }
 
 section.redes a{
-    color: black;
+    color: rgb(100, 100, 100);
     font-size: 22px;
     text-decoration: none;
 }
 
+section.redes a:hover{
+    color: black;
+}
+
 
 @media screen and (max-width: 1024px){
+    section.cardapio h2{
+        font-size: 38px;
+    }
+
+    section.redes p{
+        font-size: 27px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
     section.redes a{
         font-size: 17px;
     }
 }
 
 @media screen and (max-width: 768px){
+    section.cardapio h2{
+        font-size: 24px;
+    }
+
+    section.redes p{
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    section.redes div{
+        letter-spacing: 0.1em;
+        align-items: center;
+        flex-direction: column;
+    }
+
     section.redes a{
-        font-size: 12px;
+        margin-bottom: 20px;
     }
 }
