@@ -49,6 +49,7 @@ section.redes p{
 
 section.redes div{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 45px;
     justify-content: space-around;
 }
@@ -57,4 +58,17 @@ section.redes a{
     color: black;
     font-size: 22px;
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 1024px){
+    section.redes a{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section.redes a{
+        font-size: 12px;
+    }
 }
