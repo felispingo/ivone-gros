@@ -24,61 +24,37 @@ section.logo img{
 }
 
 
+section.cardapio h2{
+    text-align: center;
+    font-size: 63px;
+    padding-top: 63px;
+}
+
 section.cardapio img{
     width: 100%;
+    margin-bottom: -15px;
 }
 
 
 section.redes{
-    height: 100px;
     width: 100%;
+    color: black;
+}
+
+section.redes p{
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+section.redes div{
     display: flex;
-    flex-wrap: wrap;
+    margin-bottom: 45px;
     justify-content: space-around;
 }
 
 section.redes a{
-    width: 25%;
-    height: 80px;
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    border-radius: 6px;
-}
-
-section.redes a:nth-of-type(2){
-    background: rgb(14, 87, 223);
-}
-
-section.redes a:last-of-type{
     color: black;
-    background: #00E676;
-}
-
-
-
-@media screen and (max-width: 1024px){
-    section.redes{
-        height: 240px;
-        align-items: center;
-    }
-
-    section.redes a{
-        width: 34%;
-    }
-}
-
-@media screen and (max-width: 768px){
-    section.redes{
-        height: 320px;
-        align-items: center;
-    }
-
-    section.redes a{
-        width: 51%;
-    }
+    font-size: 22px;
+    text-decoration: none;
 }
