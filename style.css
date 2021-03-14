@@ -13,23 +13,17 @@ html, body{
 }
 
 
-/*
-    Paleta de cores:
-*/
-
 
 section.logo{
-    background-color: brown;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-
-section.cardapio{
-    background-color: aqua;
+section.logo img{
+    width: 100%;
 }
+
 
 section.cardapio img{
     width: 100%;
@@ -40,13 +34,13 @@ section.redes{
     width: 100%;
 }
 
-div.sociais{
+section.redes{
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-div.sociais a{
+section.redes a{
     width: 200px;
     height: 80px;
     color: white;
@@ -57,23 +51,14 @@ div.sociais a{
     justify-content: center;
     background: #f09433;
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    border-radius: 2px;
+    border-radius: 6px;
 }
 
-div.sociais a:nth-of-type(2){
+section.redes a:nth-of-type(2){
     background: rgb(14, 87, 223);
 }
 
-div.telefone{
-    background-color: #00E676;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-div.telefone p{
+section.redes a:last-of-type{
     width: 200px;
     height: 80px;
     color: black;
@@ -82,6 +67,6 @@ div.telefone p{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00E676;
+    background: #00E676;
     border-radius: 2px;
 }
